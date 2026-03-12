@@ -34,5 +34,5 @@ Free. No account required. No rate limits.
 ## Links
 
 - Live tool: https://b64chop.radicchio.page
-- Support: https://bitterdesk.com
+- Support: https://bitterdesk.com/s/b64chop/
 - Related: hashchop (SHA hashing), jwtchop (JWT decoding), epochop (timestamp conversion)
