@@ -405,7 +405,7 @@
       },
       {
         "@type": "Question",
-        "name": "What is URL-safe Base64?",
+        "name": "What is URL-safe Base64 and when do I need it?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "URL-safe Base64 replaces + with - and / with _, and omits padding = characters. It is used in JWTs, URL parameters, and file names where standard Base64 characters cause issues."
@@ -413,18 +413,10 @@
       },
       {
         "@type": "Question",
-        "name": "Can I encode files, not just text?",
+        "name": "Can I encode binary files, not just text?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes. Click 'Load file' to select any file. b64chop reads it locally and produces the Base64 output. In decode mode, you can download the decoded bytes as a file."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is Base64 used for?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Base64 encodes binary data as ASCII text so it can be safely transmitted in text-based protocols. Common uses: email attachments (MIME), JWT tokens, data URIs for images, Basic Auth headers, and embedding binary files in JSON or XML."
         }
       },
       {
